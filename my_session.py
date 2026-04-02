@@ -1,3 +1,4 @@
+"""
 import wikipedia
 wikipedia.search("Geolden State Warriors")
 []
@@ -96,6 +97,8 @@ WordList(['golden state', 'warriors', '80th season', 'national basketball associ
 blob.noun_phrases[0]
 'golden state'
 %history -f ~/my_session.py
+
+"""
 !ls ~/my_session.py
 %history -f /workspaces/NLP-with-Fire/my_session.py
 %history -o -f /workspaces/NLP-with-Fire/my_session.py
